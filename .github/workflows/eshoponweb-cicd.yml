@@ -5,6 +5,9 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
+  clientId: cdbcc761-62d8-4436-a0e3-8975a48ac398
+  clientSecret: hcO8Q~.QLKZMfB.j2HWvEuxMZXqM.chBTBP.Javn
+  tenantId: 97471489-0338-44d0-a4a7-5b3d6281b8c8
   RESOURCE-GROUP: rg-az400-eshopeonweb-az400
   LOCATION: EASTUS
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
